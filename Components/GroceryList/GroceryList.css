@@ -1,0 +1,29 @@
+.grocery-list {
+  text-align: left;
+  font-family: "Courier New", "Courier New", Courier, monospace;
+  margin: 2rem;
+  padding: 2rem;
+  box-shadow: 7px 7px 20px #cfcfcf;
+}
+
+.grocery-list h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.grocery-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.grocery-list ul li {
+  display: grid;
+  grid-template-columns: 3fr 1fr 2fr;
+}
+
+.grocery-list > div {
+  font-weight: bolder;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
